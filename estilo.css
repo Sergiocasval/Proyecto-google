@@ -1,0 +1,45 @@
+*{
+   font-family: Product Sans;
+   
+}
+
+@font-face {
+    font-family: Product Sans;
+    src: url(C:\Users\VLAKAS\Documents\DESARROLLO WEB\UCAMP\MODULO 3\Proyecto google\fonts\Product Sans Regular.ttf);
+}
+
+
+header{
+    text-align: right;
+    padding-top: 10px;
+    
+}
+
+#g{
+    color: blue;
+    text-align: center;
+    font-size: 100px;
+    font-family: Product sans;
+}
+
+#o1{
+    color: red;
+    text-align: center;
+    font-size: 100px;
+}
+
+#o2{
+    color:orange;
+}
+
+#g2{
+
+}
+
+#l{
+    color: green;
+}
+
+#e{
+    color: red;
+}
