@@ -1,6 +1,7 @@
-*{
-   font-family: Product Sans;
-   
+
+ *{
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -9,23 +10,32 @@
 }
 
 
-header{
-    text-align: right;
-    padding-top: 10px;
+
+#google{
+     
+    height: 135px;
+    padding: 0;
+    text-align: center;
+    font-size: 90px;
+    font-family: Product sans;
+    opacity: .65;
+    font-family: Product Sans;
     
+}
+
+nav{
+    height: 250px;
+    text-align: right;
 }
 
 #g{
     color: blue;
-    text-align: center;
-    font-size: 100px;
-    font-family: Product sans;
 }
 
 #o1{
     color: red;
-    text-align: center;
-    font-size: 100px;
+   
+   
 }
 
 #o2{
@@ -33,7 +43,7 @@ header{
 }
 
 #g2{
-
+    color: blue;
 }
 
 #l{
@@ -41,5 +51,104 @@ header{
 }
 
 #e{
+   
     color: red;
+    
 }
+
+#search{
+    display: inline;
+    text-align: center;
+  
+    
+}
+
+#s{
+    box-sizing: content-box;
+    height: 65px;
+}
+
+#buscar{
+    width: 638px;
+    height: 44px;
+    border-radius: 24px;
+    border:1px solid #dfe1e5 ;
+}
+.buttons{
+    height: 45px;
+}
+
+#dots{
+    display: inline;
+    height: 45px;
+    
+}
+
+#ofrecido{
+
+    text-align: center;
+    height: 355px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    list-style: none;
+   height: 40px;
+    
+}
+
+#ftr1{
+    height: 30px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 30px;
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+}
+
+#misc{
+    padding-top: 9px;
+    padding-left: 30px;
+    color: #f2f2f2;
+    font-size: 15px;
+}
+
+ul li{
+    display: inline;
+    line-height: 20px;
+    margin-right: 15px;
+    list-style: none;
+    color: #70757a;
+}
+
+.span{
+    float: right;
+    margin-right: 30px;
+}
+
+.buttons{
+    text-align: center;
+  
+}
+
+button{
+
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    height: 36px;
+    min-width: 54px;
+    border-radius: 4px;
+}
+
+
+#btn1{
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
